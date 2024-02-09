@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100%;
+width: 100%;
+}
+.container{
+    padding: 0px 100px;
+}
+.middle-banner{
+position:absolute;
+text-align: center;
+top:150px;
+left:350px;
+color: white;
+}
+.middle-banner h1, .sub-content h1, .partners h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.middle-banner p, .sub p{
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.middle-banner a{
+    text-decoration: none;
+    color: rgb(0, 107, 166);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.midbanner-image{
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+.thermo-page{
+    width: 100%;
+}
+.thermo-page h1{
+    margin: 20px;
+text-align: center;
+}
+.thermo-images{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.thermo-images div{
+width: 32%;
+position: relative;
+}
+.thermo-images div h3{
+position: absolute;
+top: 570px;
+left: 30px;
+}
+.thermo-images div img{
+width: 100%;
+border-radius: 5%;
+}
+.thermo-button a{
+    align-content: center;
+    text-decoration: none;
+    background-color: rgb(0, 107, 166);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.sub{
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+}
+.sub-content{
+    position:absolute;
+    text-align: center;
+    top:150px;
+    left:350px;
+    color: white;   
+}
+.sub-content input{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0;
+    float: left;
+    padding: 25px;
+    width: 100%;
+    font-weight: 400;
+    outline: 0;
+}
+.sub-content button{
+    position: absolute;
+    top: 134px;
+    padding: 15px 28px;
+    border-radius: 35px;
+    left: 600px;
+    color: #fff;
+    background-color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+    display: block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,.07);
+}
+.partners{
+    text-align: center;
+    margin: 60px;
+}
+.partner-logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.partners p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.partner-logos img{
+filter: grayscale(1);
+max-height: 55px;
+width: auto;
+margin: 0 15px;
+display: inline-block;
+opacity: .3;
+transition: all 300ms ease;
+-webkit-transition: all 300ms ease;
+cursor: pointer;
+}
+.partner-logos img:hover{
+    filter: brightness(0)
+}
+.cards-texts{
+    text-align: center;
+}
+.cards-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cards-content div {
+width: 30%;
+margin: 20px;
+}
+.cards-content div img{
+object-fit: cover;
+max-width: 100%;
+max-height: 100%;
+border-radius: 5%;
+}
+.cards-content div h1 {
+margin-top: 40px;
+margin-bottom: 20px;
+font-size: 35px;
+font-weight: bold;
+}
+.cards-content div p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cards-content div a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+font-weight: bold;
+}
+.cards-texts p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cards-texts h1{
+    margin-bottom: 20px;
+}
